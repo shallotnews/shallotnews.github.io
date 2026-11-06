@@ -2,11 +2,5 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Posts"
+  - title: "Articles"
     url: /posts/
-  - title: "Source Code"
-    url: https://github.com/limyunkai19/minimal-mistakes-jekyll
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
