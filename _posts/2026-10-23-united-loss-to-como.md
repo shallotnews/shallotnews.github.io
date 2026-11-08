@@ -1,0 +1,6 @@
+---
+title: United never fails to disappoint after 4-1 loss to Como
+date: 2026-10-23
+---
+![Source: Yahoo Sports](<../assets/images/5e3c0cc6a266f423385e1cba3b8fead9.webp>)
+UEFA Champions League matchday 3 concluded on Wednesday with some shocking results. First off, Paris beat Barcelona 4-2 on Tuesday, with Dembele and Kvaratskhelia injured. Manchester United fans were outraged to see yet another loss, this time being crushed by Italian club Como, who are currently ranked 4th in Serie A. One fan reported Wednesday "It's gone to shit. I though we were supposed to have like, the best midfielder in the world. Those kids were right. We don't talk about Bruno." Frank Ilett, known as "The United Strand" was depressed to hear he would have to wait at least five games before he may be able to cut his hair. Como quickly got ahead, scoring in the second and 49th minute, then slamming two more in the 57th and 76th minutes, then United scored in stoppage time to secure a 4-1 loss. The Shallot will return for matchday 4 on November 3rd.
