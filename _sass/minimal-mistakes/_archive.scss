@@ -71,6 +71,26 @@
   }
 }
 
+.featured__item {
+  margin: 1.5em 0 2em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid $border-color;
+
+  .archive__item-teaser img {
+    max-height: 28rem;
+    object-fit: cover;
+  }
+
+  .archive__item-title {
+    margin-top: 0.75em;
+    font-size: 2em;
+  }
+
+  .archive__item-excerpt {
+    font-size: $type-size-5;
+  }
+}
+
 .archive__item:hover {
   .archive__item-teaser {
     box-shadow: 0 0 10px rgba(#000, 0.25);

@@ -1,5 +1,15 @@
 {% if post.header.teaser %}
   {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% elsif include.type == "featured" %}
+  {% assign teaser = site.teaser %}
+  {% assign featured_content = post.content | markdownify %}
+  {% assign image_parts = featured_content | split: '<img' %}
+  {% if image_parts.size > 1 %}
+    {% assign image_tag = image_parts[1] | split: '>' | first %}
+    {% if image_tag contains 'src="' %}
+      {% assign teaser = image_tag | split: 'src="' | last | split: '"' | first %}
+    {% endif %}
+  {% endif %}
 {% else %}
   {% assign teaser = site.teaser %}
 {% endif %}
@@ -12,16 +22,18 @@
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser %}
-      <div class="archive__item-teaser">
-        <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
-          {% else %}
-            "{{ teaser | absolute_url }}"
-          {% endif %}
-          alt="">
-      </div>
+    {% if teaser %}
+      {% if include.type == "grid" or include.type == "featured" %}
+        <div class="archive__item-teaser">
+          <img src=
+            {% if teaser contains "://" %}
+              "{{ teaser }}"
+            {% else %}
+              "{{ teaser | absolute_url }}"
+            {% endif %}
+            alt="{{ post.title | escape }}">
+        </div>
+      {% endif %}
     {% endif %}
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}
