@@ -1,6 +1,6 @@
 ---
 title:  "School resorts to phone lockers to get students to pay attention"
-date:   2026-11-06
+date:   2026-11-6
 ---
 ![Source: schoolspecialty.com](https://cdn.schoolspecialty.com/ea3b3fb6-f3fa-4e71-bb73-b3800031ba58/2155649_A_JPG%20Output.jpg?width=700&height=700&fit=bounds&canvas=700,700&bg-color=ffffff)
 # School resorts to phone lockers to get students to pay attention
