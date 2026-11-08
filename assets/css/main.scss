@@ -4,13 +4,195 @@
 
 @charset "utf-8";
 
-$serif: "PT Serif", Georgia, serif;
-$global-font-family: $serif;
-$header-font-family: "Instrument Serif", Georgia, serif;
-$sans-serif-narrow: "Instrument Serif", Georgia, serif;
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../fonts/HelveticaNeueThin.otf") format("opentype");
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../fonts/HelveticaNeueUltraLight.otf") format("opentype");
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../fonts/HelveticaNeueLight.otf") format("opentype");
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../fonts/HelveticaNeueRoman.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../fonts/HelveticaNeueMedium.otf") format("opentype");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../fonts/HelveticaNeueBold.otf") format("opentype");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../fonts/HelveticaNeueHeavy.otf") format("opentype");
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../fonts/HelveticaNeueBlack.otf") format("opentype");
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../fonts/HelveticaNeueItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../fonts/HelveticaNeueLightItalic.otf") format("opentype");
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../fonts/HelveticaNeueUltraLightItalic.otf") format("opentype");
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../fonts/HelveticaNeueMediumItalic.otf") format("opentype");
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../fonts/HelveticaNeueBoldItalic.otf") format("opentype");
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../fonts/HelveticaNeueHeavyItalic.otf") format("opentype");
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../fonts/HelveticaNeueBlackItalic.otf") format("opentype");
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+}
+
+$site-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$serif: $site-font-family;
+$sans-serif: $site-font-family;
+$sans-serif-narrow: $site-font-family;
+$helvetica: $site-font-family;
+$georgia: $site-font-family;
+$times: $site-font-family;
+$bodoni: $site-font-family;
+$calisto: $site-font-family;
+$garamond: $site-font-family;
+$monospace: $site-font-family;
+$global-font-family: $site-font-family;
+$header-font-family: $site-font-family;
+$caption-font-family: $site-font-family;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+body {
+  background: #fff;
+  color: #111;
+}
+
+a,
+a:visited {
+  color: #e3260a;
+}
+
+a:hover,
+a:active {
+  color: #b51e09;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.page__title,
+.archive__subtitle,
+.archive__item-title {
+  color: #111;
+  font-weight: 700;
+}
+
+.archive__item-title a {
+  color: inherit;
+}
+
+.page__content hr,
+hr {
+  border-color: #b8b8b8;
+}
+
+.page__meta,
+.archive__item-excerpt,
+figcaption {
+  color: #444;
+}
+
+.page__footer {
+  background-color: #fff;
+  color: #111;
+}
+
+.sidebar {
+  opacity: 1;
+}
 
 .masthead,
 .masthead .greedy-nav {
@@ -95,6 +277,15 @@ html {
 // horizontal rule
 .page__content hr{
     border-top: 3px solid #e2e3e3;
+}
+
+.page__content > p:first-child:has(> img) {
+  margin-bottom: 0;
+}
+
+.page__content > p:first-child > img {
+  display: block;
+  margin-bottom: 1em;
 }
 
 
