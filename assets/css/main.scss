@@ -4,9 +4,61 @@
 
 @charset "utf-8";
 
+$serif: "PT Serif", Georgia, serif;
+$global-font-family: $serif;
+$header-font-family: "Instrument Serif", Georgia, serif;
+$sans-serif-narrow: "Instrument Serif", Georgia, serif;
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+.masthead,
+.masthead .greedy-nav {
+  background-color: #CF0C0C;
+}
+
+.masthead .site-title,
+.masthead .greedy-nav a,
+.masthead .greedy-nav__toggle {
+  color: #fff;
+}
+
+h1 {
+  font-size: 1.72em;
+}
+
+h2 {
+  font-size: 1.375em;
+}
+
+h3 {
+  font-size: 1.1em;
+}
+
+h4,
+h5,
+h6 {
+  font-size: 0.825em;
+}
+
+.site-title,
+.archive__subtitle,
+.author__name {
+  font-size: 1.1em;
+}
+
+.archive__item-title {
+  font-size: 1.375em;
+}
+
+.sidebar .author__bio {
+  font-family: $serif;
+}
+
+.sidebar .author__name,
+.sidebar .author__urls [itemprop="homeLocation"] span {
+  font-family: $header-font-family;
+}
 
 // font size
 html {
@@ -68,7 +120,6 @@ html {
   @include breakpoint($large) {
     padding-left: 20px;
   }
-  color: red;
 }
 
 // adjust left/right sidebar and page position on x-large
