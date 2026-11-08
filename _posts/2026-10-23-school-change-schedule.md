@@ -1,0 +1,6 @@
+---
+title: School to change schedule, raging students riot
+date: 2026-10-23
+---
+![Source: Wikipedia (joturner)](<../assets/images/Mbhs-blairblvd.jpg>)
+As of late, it has been announced that Montgomery Blair High School will switch to an all-period schedule as of the 2027-2028 school year. The reasoning behind this so-called "smart" decision is to let teachers do less work than they already have to do. Principal Damon Monteleone stated to The Shallot on Wednesday, "You see, our teachers are hard at work every day slacking off in their chairs. They have to do that for six classes and an hour and a half at a time! This change will fix that by letting them teach less and feel less like they want to die." The school has not gone public with this claim yet, but is expected to do so in the following weeks. This decision sparked outrage among students, with some resorting to riots, similar to the ongoing violence in France. One student reported "I don't know what I'm doing, man. I saw one guy beat up one of those security officers, so I lit the science room on fire." Many teachers have reported students marking graffiti on bathroom walls depicting the principal dancing on a pile of money. As this story develops, The Shallot will continue to report.

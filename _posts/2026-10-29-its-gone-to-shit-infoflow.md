@@ -1,0 +1,6 @@
+---
+title: “It’s gone to shit” critics say about Infoflow’s recent episodes
+date: 2026-10-29
+---
+![Source: bnconline.net](<../assets/images/Screenshot 2026-10-29 21.55.41.png>)
+This morning, students and teachers tuned across the building tuned in to Infoflow, Montgomery Blair’s out-of-date news source. Over the past couple of weeks, many have been critical of the series, some calling it “inferior to The Shallot” and “talking about useless shit.” Last week, reporters were showcasing the National Pickle Festival, and this sparked controversy due to other interesting topics arising at the time, such as the release of South Park season 29. Others have also pointed out the lack of timeliness of the stories, with many of them taking place in September, whilst being aired mid-October. Coming back to this morning’s episode, school principal David Monteleone was seen stalking a student after she appeared to leave school during the day. This contentious act was seen as one student as “confirming the allegations”. Another reports, “They do this every time. Literally all they do is try to be hip with the kids, but instead they end up scaring the shit out of them.” Infoflow is regarded by teachers as “another part of the daily grind” and most are indifferent.
