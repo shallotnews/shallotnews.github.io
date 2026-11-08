@@ -68,6 +68,7 @@ html {
   @include breakpoint($large) {
     padding-left: 20px;
   }
+  color: red;
 }
 
 // adjust left/right sidebar and page position on x-large
