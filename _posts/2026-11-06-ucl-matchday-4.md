@@ -1,5 +1,5 @@
 ---
-title: Matchday 4 deemed "absolute cinema", promises goodmatches ahead
+title: Matchday 4 deemed "absolute cinema", promises good matches ahead
 date: 2026-11-06
 ---
 ![Source: Reuters](https://storage.googleapis.com/origin-awsassets.nst.com.my/images/articles/2EEF50299312A097F599ED691C9D9B59_low_0.jpg)
