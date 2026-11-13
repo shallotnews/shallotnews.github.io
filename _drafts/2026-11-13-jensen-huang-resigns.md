@@ -1,11 +1,8 @@
 ---
-title: More to come very soon
+title: Nvidia ex-CEO Jensen Huang love situation made public
 date: 2026-11-13
 ---
-In development
+Nvidia 
 <!--stackedit_data:
-eyJwcm9wZXJ0aWVzIjoidGl0bGU6IE52aWRpYSBleC1DRU8gSm
-Vuc2VuIEh1YW5nIGxvdmUgc2l0dWF0aW9uIG1hZGUgcHVibGlj
-XG5kYXRlOiAnMjAyNi0xMS0xMydcbiIsImhpc3RvcnkiOlstNT
-E2ODY4MjA3XX0=
+eyJoaXN0b3J5IjpbLTE0NzQwMDY3ODUsLTUxNjg2ODIwN119
 -->
