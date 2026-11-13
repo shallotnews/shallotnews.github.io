@@ -1,5 +1,5 @@
 ---
-title: Commentary: Trump makes weird noise during campaign
+title: "Commentary: Trump makes weird noise during campaign"
 date: 2026-11-13
 ---
 
