@@ -1,5 +1,5 @@
 ---
-title: "It was doomed from the start," critics say on Homecoming game and dance
+title: “It was doomed from the start”, critics say on Homecoming game and dance
 date: 2026-10-16
 ---
 ![](https://raw.githubusercontent.com/shallotnews/shallotnews.github.io/b24f9b75495a70309667fe52812f99a234c0ec04/assets/images/IMG_0310%20(1).JPEG)
